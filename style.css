@@ -1,0 +1,252 @@
+@keyframes alertIn {
+    from {
+        opacity: 0;
+        right: 50%;
+    }
+    to {
+        opacity: 1;
+        right: 1%;
+    }
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(320deg, gray, rgb(175, 175, 175));
+}
+
+button {
+    transition: all 1s ease-in;
+    margin: 10px;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    border: none;
+}
+
+button#button4 {
+    background-color: rgb(90, 185, 90);
+}
+
+button#button3 {
+    background-color: rgb(255, 118, 118);
+}
+
+button#button2 {
+    background-color: rgb(255, 255, 136);
+}
+
+button#button1 {
+    background-color: lightblue;
+}
+
+button:hover {
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    background-color: lightgreen;
+}
+
+div#buttons {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div#alert1 {
+    animation: alertIn 1.5s 0s 1;
+    position: sticky;
+    top: 50%;
+    min-width: 400px;
+    max-width: 600px;
+    min-height: 80px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(184, 252, 252);
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div#alert1 img {
+    margin-right: 30px;
+}
+
+div#alert1 b#x1 {
+    margin-left: 60px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(0, 0, 141);
+}
+
+div#alert1 b#x1:hover {
+    cursor: pointer;
+}
+
+div#alert1 div#box p:first-child {
+    max-width: 250px;
+    margin-bottom: 5px;
+}
+
+div#alert1 div#box p:last-child {
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+div#alert2 {
+    animation: alertIn 1.5s 0s 1;
+    position: sticky;
+    top: 50%;
+    min-width: 400px;
+    max-width: 600px;
+    min-height: 80px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(255, 255, 177);
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div#alert2 b#img {
+    margin-right: 30px;
+
+    font-size: 30px;
+}
+
+div#alert2 b#x2 {
+    margin-left: 60px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(112, 110, 0);
+}
+
+div#alert2 b#x2:hover {
+    cursor: pointer;
+}
+
+div#alert2 div#box p:first-child {
+    max-width: 250px;
+    margin-bottom: 5px;
+}
+
+div#alert2 div#box p:last-child {
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+div#alert3 {
+    animation: alertIn 1.5s 0s 1;
+    position: sticky;
+    top: 50%;
+    min-width: 400px;
+    max-width: 600px;
+    min-height: 80px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(255, 183, 183);
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div#alert3 b#img {
+    margin-right: 30px;
+
+    font-size: 30px;
+}
+
+div#alert3 b#x3 {
+    margin-left: 60px;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(170, 0, 0);
+}
+
+div#alert3 b#x3:hover {
+    cursor: pointer;
+}
+
+div#alert3 div#box p:first-child {
+    max-width: 250px;
+    margin-bottom: 5px;
+}
+
+div#alert3 div#box p:last-child {
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+div#alert4 {
+    animation: alertIn 1.5s 0s 1;
+    position: sticky;
+    top: 50%;
+    min-width: 400px;
+    max-width: 600px;
+    min-height: 80px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(180, 255, 180);
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div#alert4 b#img {
+    margin-right: 30px;
+
+    font-size: 30px;
+}
+
+div#alert4 b#x4 {
+    margin-left: 60px;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: darkgreen;
+}
+
+div#alert4 b#x4:hover {
+    cursor: pointer;
+}
+
+div#alert4 div#box p:first-child {
+    max-width: 250px;
+    margin-bottom: 5px;
+}
+
+div#alert4 div#box p:last-child {
+    font-size: 13px;
+}
